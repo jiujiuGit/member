@@ -1,0 +1,5 @@
+node_modules/
+uni_modules/
+.project
+unpackage/
+.DS_Store

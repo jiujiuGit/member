@@ -1,0 +1,54 @@
+.flex-box {
+  display: flex;
+}
+
+.flex-box-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-box-vertical {
+  flex-direction: column;
+}
+
+.flex-box-horizontal {
+  flex-direction: row
+}
+
+.flex-box-h-center {
+  justify-content: center;
+}
+
+.flex-box-h-between {
+  justify-content: space-between;
+}
+
+.flex-box-v-center {
+  align-items: center;
+}
+
+.flex-box-v-stretch {
+  align-items: stretch;
+}
+
+.flex-item-1 {
+  flex: 1;
+}
+
+.flex-item-2 {
+  flex: 2;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.muEllipsis {
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  -webkit-line-clamp: 2;
+}
